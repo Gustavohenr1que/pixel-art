@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:dimgray;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.coluna{
+    display:GRID;
+    justify-content:center;
+}
+
+.quadrado{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+
+    background-color:black;
+}
+
+#E5,#E6,#E4,#E3,#E2,#E1,#D0,#C5,#C6,#C4,#C3,#C2,#C1{  
+background-color: aqua;
+}
+
+#D2,#D3,#D4,#D5,#D6,#D1{
+background-color:aquamarine;
+}
+
+#D7,#C7,#E7{
+    background-color:goldenrod;
+}
+
+#D10{
+    background-color: goldenrod
+}
+
+#D9,#D8{
+    background-color:rgb(59, 44, 14);
+}
+
+
+
